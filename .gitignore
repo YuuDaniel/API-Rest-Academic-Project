@@ -1,0 +1,46 @@
+# ====================================
+# Baozi Store - .gitignore
+# ====================================
+
+# Compilação e Artefatos Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+bin/
+
+# Documentos acadêmicos e arquivos pessoais / de avaliação
+*.docx
+*.pdf
+*.pptx
+*.xlsx
+*.doc
+ATIVIDADE PRATICA*
+TRABALHO*
+
+# Configurações de IDEs e Editores
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.nb-gradle/
+/nbproject/
+
+# Postman local exports & workspaces
+.postman/
+
+# Logs e arquivos temporários de SO
+*.log
+.DS_Store
+Thumbs.db
+
